@@ -1,0 +1,158 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(backk.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    color: #ff7200;
+    font-size: 30px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 300;
+    float:left;
+    font-size: px;
+    height: 50px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: left;
+    align-items:center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size :14px;
+}
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: #ff7200;
+}
+
+.search{
+    width: 400px;
+    float: right;
+    margin-left: 60px;
+    margin-top: 17px;
+
+}
+.srch{
+    font-family: 'Time New Roman';
+    width: 300px;
+    height: 30px;
+    background:transparent blanchedalmond;
+    border-radius: 20px;
+}
+.btn{
+    background-color: #ff7200;
+    width: 70px;
+    height: 34px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.form{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolutet;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    color: aliceblue;
+    margin-left: 37%;
+}
+.form h2{
+    font-family: sans-serif;
+    text-align: center;
+    color: #ff7200;
+    background-color: white;
+    padding: 8px;
+    margin: 2px;
+    border-radius: 10px;
+}
+.form input{
+    width: 295px;
+    height: 35px;
+    background: transparent;
+    border-bottom:1px solid #ff7200 ;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    color: white;
+    font-size:15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+  .form input:focus
+  {
+    outline: none;
+  }
+::placeholder{
+    color: #fff;
+    font-family: arial;
+}
+.btnn{
+    width: 295px;
+    height: 40px;
+    margin-top: 30px;
+    background: #ff7200;
+    border-top: none;
+    border-left:none;
+    border-right: none;
+    border-bottom: none;
+    font-size: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .Link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px; 
+    padding-top: 20px;
+    text-align: center;
+}
+.form .Link a{
+    text-decoration: none;
+    color:#ff7200;
+    
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
